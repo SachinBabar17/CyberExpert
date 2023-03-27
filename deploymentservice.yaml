@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: sachinbabar17/cyberexpert:latest
+        image: sachinbabar17/projectcyberexpert:latest
         ports:
         - containerPort: 3000
         
