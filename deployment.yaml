@@ -17,4 +17,3 @@ spec:
         image: sachinbabar17/cyberexpert:latest
         ports:
         - containerPort: 8000
-      }
