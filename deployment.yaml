@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cyberexpert-deployment
+  name: cyberexpert-deployment1
 spec:
   replicas: 1
   selector:
@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: cyberexpert
-        image: sachinbabar17/cyberexpert:latest
+        image: sachinbabar17/cyberexpert1:latest
         ports:
         - containerPort: 8000
